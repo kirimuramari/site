@@ -20,23 +20,29 @@ body {
     width:100%;
     color:#999999;
 }
+img{
+vertical-align: bottom;
+}
 #main {
     width: 480px;
     margin:0 auto;
-    display: table-cell;
-    vertical-align: middle;
     text-align: center;
 }
 #img {
-    width:23%;
-    height:31%;
-    margin-top:50px;
-    margin-bottom:50px;
+    width:166px;
+    height:139px;
+    margin:20px 10px 10px 10px;
+   
+}
+#img img {
+    margin:0 auto;
 }
 #kekka {
     background-image:url("img/white.png");
-    width:34.75%;
-    height:10%;
+    width:243px;
+    height:106px;
+    vertical-align: bottom;
+    margin-top: 5px;
 }
 p {
     font-size:200%;
@@ -44,15 +50,18 @@ p {
 li {
     float:left;
     background-repeat: no-repeat;
-    width: 23%;
-    height: 23%;
+    width: 110px;
+    height: 100px;
+    margin:0 auto;
 }
 li:nth-child(1) {
-    margin-left:10px;
+    margin-left:35px;
 }
+
 li:nth-child(2) {
-    margin: 0px 35px 0px 35px;
+    margin: 0px 15px 0px 15px;
 }
-li:nth-child(3) {
-    /*margin: 10px 0 0 0;*/
-}
+
+.clear {
+        clear: none;
+    }
