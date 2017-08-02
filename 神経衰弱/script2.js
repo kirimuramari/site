@@ -46,7 +46,7 @@ if (sn == 0)   {
   Img = ["img/mark_03.gif","img/mark_03.gif","img/mark_05.gif","img/mark_05.gif","img/mark_10.gif","img/mark_10.gif","img/mark_14.gif","img/mark_14.gif"];
 y.shuffle();
 }else if(sn == 1){
-Img = ["july02_a07.png","july02_a07.png","july02_a16.png","july02_a16.png","july02_a18.png","july02_a18.png","july02_a27.png","july02_a27.png"];
+Img = ["img/july02_a07.png","img/july02_a07.png","img/july02_a16.png","img/july02_a16.png","img/july02_a18.png","img/july02_a18.png","img/july02_a27.png","img/july02_a27.png"];
 }else if(sn == 2){
  Img = ["img/490.png","img/490.png","img/492.png","img/492.png","img/494.png","img/494.png","img/496.png","img/496.png"];
 y.shuffle();
