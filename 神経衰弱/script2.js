@@ -47,6 +47,7 @@ if (sn == 0)   {
 y.shuffle();
 }else if(sn == 1){
 Img = ["img/july02_a07.png","img/july02_a07.png","img/july02_a16.png","img/july02_a16.png","img/july02_a18.png","img/july02_a18.png","img/july02_a27.png","img/july02_a27.png"];
+y.shuffle();
 }else if(sn == 2){
  Img = ["img/490.png","img/490.png","img/492.png","img/492.png","img/494.png","img/494.png","img/496.png","img/496.png"];
 y.shuffle();
