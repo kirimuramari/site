@@ -3,7 +3,11 @@
   body{
     margin:0px;
     color:#333333;
-    background:#FFFFFF
+    background:#FFFFFF;
+     margin-top: 9pt;
+    margin-bottom: 9pt;
+    font-size: 15px;
+      font-weight: bold;
   }
   table{
   border:"1"; 
@@ -11,6 +15,11 @@
   border-style: solid; 
   border-color: #A3A3A3;
    border-width: 1pt;
+  }
+  table p{
+    font-family: arial;
+    text-align: center;
+    
   }
   th{
   vertical-align: top;
@@ -29,16 +38,14 @@
  #main{
    margin-left: 20px;
  }
+   #rash.Mtable tr td p a{
+font-size: 10px;
+  }
   p{
   margin:0px;
   }
+
   
-  p a{
-    margin-top: 9pt;
-    margin-bottom: 9pt;
-    font-size: 13.65pt;
-      font-weight: bold;
-  }
   .toTop {
   
     display: inline-block;
@@ -47,10 +54,14 @@
     color: #fff;
     cursor: pointer;
     }
+    .toTop:hover{
+      opacity: 0.6;
+    }
   .float{
     float:left;
   }
-  .crea{
+
+  .clear{
      content: "."; 
     display: block; 
     height: 0; 
@@ -58,15 +69,38 @@
     clear: both; 
     visibility:hidden;
   }
-  
+    .Mboder{  
+     cursor:pointer;
+   }
+   .Mboder:hover{
+     opacity: 0.9;
+   }
+  h3{
+    margin: 0px;
+     cursor:pointer;
+   }
+   h3:hover{
+     opacity: 0.6;
+   }
+li a:hover{
+  opacity: 0.6;
+}
   @media (max-width: 560px){
-   
+    h2 {
+      margin: 0;  
+    }
+   img{
+     height: 50%;
+     width: 50%;
+   }
      #menu {
       display: none;
      }
      #main{
       margin-right: 10px;
+      /*
       border:1px #A3A3A3 solid;
+    */
     }
    .Mtable {
      font-weight:bold;
@@ -83,6 +117,8 @@
    }
    p a{
      text-decoration: #A3A3A3 underline;
+
    }
+ 
   }
 

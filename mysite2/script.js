@@ -15,3 +15,9 @@ $(function(){
   $(this).toggleClass('.Mtable').next().slideToggle();
   });
   });
+
+$(function () {
+  $('h3').click(function () {
+    $(this).toggleClass('.Mtable').next().slideToggle();
+  });
+});
